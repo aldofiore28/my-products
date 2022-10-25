@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-products/products-data-client": [
+        "libs/products-data-client/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
